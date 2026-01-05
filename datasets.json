@@ -1,0 +1,966 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "halo",
+                "hai",
+                "hello",
+                "hi",
+                "selamat pagi",
+                "selamat siang",
+                "selamat sore",
+                "selamat malam",
+                "pagi",
+                "siang",
+                "sore",
+                "malam",
+                "hei",
+                "hey",
+                "permisi",
+                "assalamualaikum",
+                "assalamu alaikum"
+            ],
+            "responses": [
+                "Halo, selamat datang di Toko Kue Manis. Ada yang bisa saya bantu?",
+                "Hai, terima kasih sudah menghubungi Toko Kue Manis. Ada yang bisa dibantu?",
+                "Selamat datang di Toko Kue Manis. Silakan tanyakan apapun tentang kue kami.",
+                "Halo, saya asisten virtual Toko Kue Manis. Apa yang bisa saya bantu hari ini?"
+            ]
+        },
+        {
+            "tag": "terima_kasih",
+            "patterns": [
+                "terima kasih",
+                "makasih",
+                "thanks",
+                "thank you",
+                "trims",
+                "tq",
+                "tengkyu",
+                "thx",
+                "makasi",
+                "terimakasih"
+            ],
+            "responses": [
+                "Sama-sama, senang bisa membantu.",
+                "Terima kasih kembali. Jangan ragu hubungi kami lagi.",
+                "Dengan senang hati. Semoga harimu menyenangkan.",
+                "Sama-sama. Ditunggu pesanannya ya."
+            ]
+        },
+        {
+            "tag": "sampai_jumpa",
+            "patterns": [
+                "bye",
+                "dadah",
+                "sampai jumpa",
+                "selamat tinggal",
+                "goodbye",
+                "bye bye",
+                "dah",
+                "pamit",
+                "cabut dulu",
+                "pergi dulu"
+            ],
+            "responses": [
+                "Sampai jumpa kembali. Terima kasih sudah menghubungi kami.",
+                "Dadah, semoga harimu menyenangkan.",
+                "Sampai bertemu lagi. Ditunggu kunjungannya.",
+                "Selamat tinggal, jangan lupa mampir lagi ya."
+            ]
+        },
+        {
+            "tag": "kabar",
+            "patterns": [
+                "apa kabar",
+                "gimana kabarnya",
+                "kabar baik",
+                "baik baik saja",
+                "bagaimana kabarmu",
+                "kabarmu gimana",
+                "sehat",
+                "baik"
+            ],
+            "responses": [
+                "Kabar baik, terima kasih sudah bertanya. Bagaimana dengan Anda?",
+                "Alhamdulillah baik. Semoga Anda juga sehat selalu.",
+                "Baik sekali. Ada yang bisa saya bantu hari ini?"
+            ]
+        },
+        {
+            "tag": "nama_toko",
+            "patterns": [
+                "nama toko apa",
+                "toko ini namanya apa",
+                "ini toko apa",
+                "apa nama tokonya",
+                "toko kue apa ini"
+            ],
+            "responses": [
+                "Nama toko kami adalah Toko Kue Manis. Kami menyediakan berbagai jenis kue lezat untuk berbagai acara.",
+                "Ini adalah Toko Kue Manis, tempat terbaik untuk mendapatkan kue berkualitas."
+            ]
+        },
+        {
+            "tag": "lokasi",
+            "patterns": [
+                "dimana lokasinya",
+                "alamat toko",
+                "lokasi toko",
+                "toko dimana",
+                "alamatnya dimana",
+                "posisi toko",
+                "outlet dimana",
+                "cabang dimana",
+                "lokasi outlet"
+            ],
+            "responses": [
+                "Toko kami berlokasi di Jl. Manis No. 123, Jakarta Selatan. Buka setiap hari pukul 08.00-21.00 WIB.",
+                "Alamat kami di Jl. Manis No. 123, Jakarta Selatan. Kami juga melayani pengiriman ke seluruh Jakarta."
+            ]
+        },
+        {
+            "tag": "jam_buka",
+            "patterns": [
+                "jam buka",
+                "buka jam berapa",
+                "jam operasional",
+                "kapan buka",
+                "tutup jam berapa",
+                "jam kerja",
+                "jam operasi",
+                "buka sampai jam berapa"
+            ],
+            "responses": [
+                "Toko kami buka setiap hari pukul 08.00-21.00 WIB.",
+                "Jam operasional kami dari jam 8 pagi sampai 9 malam setiap hari, termasuk hari libur."
+            ]
+        },
+        {
+            "tag": "jenis_kue",
+            "patterns": [
+                "ada kue apa saja",
+                "jenis kue apa",
+                "macam kue",
+                "kue apa aja",
+                "list kue",
+                "daftar kue",
+                "menu kue",
+                "pilihan kue",
+                "varian kue",
+                "kue yang tersedia"
+            ],
+            "responses": [
+                "Kami menyediakan berbagai jenis kue: Kue Ulang Tahun, Black Forest, Red Velvet, Cheesecake, Tiramisu, Brownies, Cupcake, Lapis Legit, Bolu, Tart Buah, Chiffon Cake, Mousse Cake, Opera Cake, Rainbow Cake, dan masih banyak lagi.",
+                "Pilihan kue kami sangat beragam mulai dari kue ulang tahun, kue pernikahan, brownies, cupcake, hingga kue tradisional seperti lapis legit dan bolu."
+            ]
+        },
+        {
+            "tag": "kue_ultah",
+            "patterns": [
+                "kue ulang tahun",
+                "kue ultah",
+                "birthday cake",
+                "kue ulangtahun",
+                "kue bday",
+                "kue untuk ultah",
+                "pesan kue ultah",
+                "mau kue ultah"
+            ],
+            "responses": [
+                "Kue ulang tahun kami tersedia dalam berbagai ukuran: 16cm (Rp150.000), 20cm (Rp250.000), 24cm (Rp350.000), 28cm (Rp450.000). Bisa custom desain dan tulisan sesuai keinginan.",
+                "Untuk kue ulang tahun, kami punya banyak pilihan tema dan rasa. Harga mulai dari Rp150.000. Mau pesan untuk acara kapan?"
+            ]
+        },
+        {
+            "tag": "black_forest",
+            "patterns": [
+                "black forest",
+                "blackforest",
+                "kue black forest",
+                "harga black forest"
+            ],
+            "responses": [
+                "Black Forest kami terbuat dari cokelat premium dengan lapisan krim dan ceri. Harga: 16cm Rp180.000, 20cm Rp280.000, 24cm Rp380.000.",
+                "Kue Black Forest adalah salah satu best seller kami. Lembut, manis, dan penuh rasa cokelat. Tersedia berbagai ukuran."
+            ]
+        },
+        {
+            "tag": "red_velvet",
+            "patterns": [
+                "red velvet",
+                "redvelvet",
+                "kue red velvet",
+                "harga red velvet",
+                "revel"
+            ],
+            "responses": [
+                "Red Velvet kami dengan cream cheese frosting yang lembut. Harga: 16cm Rp200.000, 20cm Rp300.000, 24cm Rp400.000.",
+                "Red Velvet cake dengan warna merah cantik dan rasa yang unik. Sangat cocok untuk acara spesial."
+            ]
+        },
+        {
+            "tag": "cheesecake",
+            "patterns": [
+                "cheesecake",
+                "cheese cake",
+                "kue keju",
+                "harga cheesecake",
+                "chizke"
+            ],
+            "responses": [
+                "Cheesecake kami tersedia dalam varian Original, Oreo, dan Blueberry. Harga mulai dari Rp180.000 untuk ukuran 16cm.",
+                "Cheesecake lembut dengan rasa keju yang kaya. Pilihan favorit banyak pelanggan kami."
+            ]
+        },
+        {
+            "tag": "tiramisu",
+            "patterns": [
+                "tiramisu",
+                "kue tiramisu",
+                "harga tiramisu",
+                "tiramissu"
+            ],
+            "responses": [
+                "Tiramisu dengan rasa kopi dan mascarpone yang autentik. Harga: Slice Rp35.000, Whole 20cm Rp280.000.",
+                "Tiramisu kami dibuat dengan bahan berkualitas. Perpaduan kopi dan keju mascarpone yang sempurna."
+            ]
+        },
+        {
+            "tag": "brownies",
+            "patterns": [
+                "brownies",
+                "brownis",
+                "kue brownies",
+                "harga brownies",
+                "bronis"
+            ],
+            "responses": [
+                "Brownies kami tersedia dalam varian Original, Cheese, dan Nutella. Harga per loyang Rp85.000-Rp120.000.",
+                "Brownies cokelat yang fudgy dan lezat. Best seller untuk oleh-oleh dan hampers."
+            ]
+        },
+        {
+            "tag": "cupcake",
+            "patterns": [
+                "cupcake",
+                "cup cake",
+                "kue cupcake",
+                "harga cupcake",
+                "kapkek"
+            ],
+            "responses": [
+                "Cupcake kami Rp15.000 per pcs atau Rp150.000 per box isi 12. Tersedia berbagai rasa dan bisa custom dekorasi.",
+                "Cupcake cantik untuk berbagai acara. Bisa pesan satuan atau per box dengan tema khusus."
+            ]
+        },
+        {
+            "tag": "lapis_legit",
+            "patterns": [
+                "lapis legit",
+                "kue lapis",
+                "lapis surabaya",
+                "harga lapis legit",
+                "spekuk"
+            ],
+            "responses": [
+                "Lapis Legit premium dengan campuran rempah pilihan. Harga: Half Rp250.000, Full Rp450.000.",
+                "Lapis Legit kami dibuat dengan resep tradisional turun temurun. Cocok untuk hadiah dan acara spesial."
+            ]
+        },
+        {
+            "tag": "bolu",
+            "patterns": [
+                "bolu",
+                "kue bolu",
+                "bolu jadul",
+                "bolu panggang",
+                "harga bolu"
+            ],
+            "responses": [
+                "Bolu kami tersedia dalam varian Keju, Cokelat, Vanilla, dan Pandan. Harga mulai Rp65.000 per loyang.",
+                "Bolu lembut dengan berbagai rasa. Cocok untuk sarapan dan camilan keluarga."
+            ]
+        },
+        {
+            "tag": "tart_buah",
+            "patterns": [
+                "tart buah",
+                "fruit tart",
+                "kue tart buah",
+                "harga tart buah"
+            ],
+            "responses": [
+                "Tart Buah segar dengan berbagai buah pilihan. Harga: 16cm Rp180.000, 20cm Rp280.000.",
+                "Tart Buah dengan pastry renyah dan buah segar berkualitas. Menyegarkan dan cantik."
+            ]
+        },
+        {
+            "tag": "chiffon",
+            "patterns": [
+                "chiffon",
+                "chiffon cake",
+                "kue chiffon",
+                "harga chiffon",
+                "sifon"
+            ],
+            "responses": [
+                "Chiffon Cake super lembut dengan berbagai rasa. Harga mulai Rp75.000 per loyang.",
+                "Chiffon Cake ringan dan lembut. Tersedia rasa Pandan, Cokelat, dan Vanilla."
+            ]
+        },
+        {
+            "tag": "mousse",
+            "patterns": [
+                "mousse",
+                "mousse cake",
+                "kue mousse",
+                "harga mousse"
+            ],
+            "responses": [
+                "Mousse Cake premium dengan tekstur lembut. Harga: Slice Rp40.000, Whole Rp320.000.",
+                "Mousse Cake dengan berbagai varian: Cokelat, Strawberry, Mango. Lembut meleleh di mulut."
+            ]
+        },
+        {
+            "tag": "rainbow",
+            "patterns": [
+                "rainbow cake",
+                "kue pelangi",
+                "harga rainbow cake",
+                "rainbow"
+            ],
+            "responses": [
+                "Rainbow Cake dengan lapisan warna-warni yang cantik. Harga: 16cm Rp200.000, 20cm Rp300.000.",
+                "Rainbow Cake favorit anak-anak. Warna cerah dan rasa vanilla yang lezat."
+            ]
+        },
+        {
+            "tag": "kue_pernikahan",
+            "patterns": [
+                "kue pernikahan",
+                "wedding cake",
+                "kue nikah",
+                "kue pengantin",
+                "kue wedding"
+            ],
+            "responses": [
+                "Kue pernikahan custom dengan berbagai tingkat. Konsultasi gratis untuk desain. Harga mulai dari Rp1.500.000.",
+                "Wedding cake kami bisa disesuaikan dengan tema pernikahan Anda. Hubungi kami untuk konsultasi gratis."
+            ]
+        },
+        {
+            "tag": "harga",
+            "patterns": [
+                "harga",
+                "berapa harganya",
+                "price list",
+                "daftar harga",
+                "harga kue",
+                "range harga",
+                "kisaran harga"
+            ],
+            "responses": [
+                "Harga kue kami bervariasi: Cupcake Rp15.000/pcs, Brownies Rp85.000-Rp120.000, Kue Ulang Tahun Rp150.000-Rp450.000, Cheesecake Rp180.000-Rp350.000. Untuk harga lengkap silakan tanyakan jenis kue yang diinginkan.",
+                "Range harga kami cukup bervariasi sesuai jenis dan ukuran kue. Bisa sebutkan kue apa yang diminati?"
+            ]
+        },
+        {
+            "tag": "promo",
+            "patterns": [
+                "promo",
+                "diskon",
+                "potongan harga",
+                "ada promo",
+                "promo apa",
+                "diskon berapa",
+                "voucher"
+            ],
+            "responses": [
+                "Promo bulan ini: Diskon 15% untuk pembelian di atas Rp500.000. Gratis ongkir untuk area Jakarta.",
+                "Kami sedang ada promo Buy 2 Get 1 Free untuk cupcake. Follow Instagram kami untuk info promo terbaru."
+            ]
+        },
+        {
+            "tag": "pemesanan",
+            "patterns": [
+                "cara pesan",
+                "bagaimana memesan",
+                "mau pesan",
+                "order",
+                "pesan kue",
+                "booking",
+                "reservasi",
+                "mau order",
+                "aku mau pesan",
+                "saya mau pesan",
+                "mau beli",
+                "pengen beli",
+                "pesen",
+                "mau pesen"
+            ],
+            "responses": [
+                "Untuk memesan, Anda bisa: 1) Chat langsung di sini, 2) WhatsApp ke 085758903047, 3) Datang langsung ke toko. Minimal pemesanan H-2 untuk kue custom.",
+                "Pemesanan bisa dilakukan melalui chat ini atau WhatsApp. Untuk kue ulang tahun dan custom, harap pesan minimal 2 hari sebelumnya."
+            ]
+        },
+        {
+            "tag": "pembayaran",
+            "patterns": [
+                "metode pembayaran",
+                "bayar gimana",
+                "cara bayar",
+                "transfer kemana",
+                "bisa bayar pakai apa",
+                "payment",
+                "ewallet",
+                "ovo",
+                "gopay",
+                "dana"
+            ],
+            "responses": [
+                "Metode pembayaran: Transfer Bank (BCA, Mandiri, BNI), E-Wallet (OVO, GoPay, DANA), atau tunai di toko. DP 50% untuk pesanan custom.",
+                "Kami menerima berbagai metode pembayaran termasuk transfer bank, e-wallet, dan tunai. Untuk custom order, DP minimal 50%."
+            ]
+        },
+        {
+            "tag": "pengiriman",
+            "patterns": [
+                "ongkir",
+                "biaya kirim",
+                "delivery",
+                "pengiriman",
+                "bisa dikirim",
+                "antar",
+                "kirim kemana",
+                "area pengiriman",
+                "jangkauan kirim"
+            ],
+            "responses": [
+                "Pengiriman tersedia untuk area Jabodetabek. Ongkir mulai Rp15.000. Gratis ongkir untuk pesanan di atas Rp500.000 area Jakarta.",
+                "Kami melayani delivery ke seluruh Jabodetabek. Untuk luar kota bisa menggunakan ekspedisi."
+            ]
+        },
+        {
+            "tag": "waktu_pengiriman",
+            "patterns": [
+                "berapa lama pengiriman",
+                "kapan sampai",
+                "estimasi pengiriman",
+                "waktu kirim",
+                "sampai berapa jam"
+            ],
+            "responses": [
+                "Estimasi pengiriman 1-3 jam untuk area Jakarta, 3-5 jam untuk Bodetabek tergantung jarak.",
+                "Waktu pengiriman tergantung lokasi. Area Jakarta biasanya 1-3 jam setelah pesanan siap."
+            ]
+        },
+        {
+            "tag": "custom_kue",
+            "patterns": [
+                "custom",
+                "pesan custom",
+                "request khusus",
+                "desain sendiri",
+                "custom design",
+                "kue custom",
+                "bikin sesuai request"
+            ],
+            "responses": [
+                "Kami menerima pesanan custom untuk berbagai acara. Silakan jelaskan tema, ukuran, dan rasa yang diinginkan. Minimal order H-3.",
+                "Untuk custom cake, kami butuh informasi: tema/desain, ukuran, rasa, jumlah, dan tanggal acara. Biaya custom mulai +Rp50.000."
+            ]
+        },
+        {
+            "tag": "tulisan_kue",
+            "patterns": [
+                "tulisan di kue",
+                "tambah tulisan",
+                "tulis nama",
+                "ucapan di kue",
+                "topper"
+            ],
+            "responses": [
+                "Tulisan di kue gratis untuk 15 karakter pertama. Tambahan Rp5.000 per 10 karakter. Topper custom tersedia mulai Rp25.000.",
+                "Kami bisa menambahkan tulisan ucapan di kue. Gratis untuk ucapan standar. Topper karakter juga tersedia."
+            ]
+        },
+        {
+            "tag": "bahan",
+            "patterns": [
+                "bahan kue",
+                "ingredients",
+                "komposisi",
+                "terbuat dari apa",
+                "pakai bahan apa"
+            ],
+            "responses": [
+                "Kami menggunakan bahan berkualitas: tepung premium, butter, telur segar, cokelat Belgia, dan bahan impor lainnya.",
+                "Semua kue dibuat dengan bahan pilihan berkualitas tinggi. Kami mengutamakan kesegaran dan cita rasa."
+            ]
+        },
+        {
+            "tag": "halal",
+            "patterns": [
+                "halal",
+                "apakah halal",
+                "sertifikat halal",
+                "bahan halal",
+                "haram tidak"
+            ],
+            "responses": [
+                "Semua produk kami halal dan tidak menggunakan bahan yang mengandung alkohol atau babi. Kami berkomitmen pada kualitas halal.",
+                "Ya, seluruh produk kami halal. Kami menggunakan bahan-bahan yang terjamin kehalalannya."
+            ]
+        },
+        {
+            "tag": "alergi",
+            "patterns": [
+                "alergi",
+                "ada kacang",
+                "gluten free",
+                "bebas gluten",
+                "susu",
+                "telur",
+                "alergen"
+            ],
+            "responses": [
+                "Mohon informasikan jika ada alergi. Beberapa produk mengandung kacang, susu, telur, atau gluten. Kami bisa menyesuaikan untuk kebutuhan khusus.",
+                "Untuk pelanggan dengan alergi, silakan hubungi kami untuk informasi bahan detail atau request khusus."
+            ]
+        },
+        {
+            "tag": "vegan",
+            "patterns": [
+                "vegan",
+                "kue vegan",
+                "tanpa telur",
+                "tanpa susu",
+                "plant based"
+            ],
+            "responses": [
+                "Kami memiliki pilihan kue vegan terbatas. Silakan hubungi kami untuk ketersediaan dan pemesanan khusus.",
+                "Untuk opsi vegan, kami bisa membuat custom. Perlu waktu persiapan lebih lama, minimal H-5."
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": [
+                "diabetes",
+                "gula rendah",
+                "sugar free",
+                "tanpa gula",
+                "untuk diabetes"
+            ],
+            "responses": [
+                "Kami menyediakan opsi kue rendah gula atau dengan pemanis alternatif. Harga +Rp30.000 dari harga normal.",
+                "Untuk pesanan diabetic friendly, kami menggunakan pengganti gula. Mohon pesan minimal H-3."
+            ]
+        },
+        {
+            "tag": "ketahanan",
+            "patterns": [
+                "tahan berapa lama",
+                "kadaluarsa",
+                "expired",
+                "bisa disimpan berapa hari",
+                "ketahanan kue"
+            ],
+            "responses": [
+                "Kue kami best before 3-5 hari dalam kulkas. Untuk brownies dan lapis legit bisa tahan 1-2 minggu.",
+                "Ketahanan berbeda tiap jenis kue. Kue dengan krim sebaiknya dikonsumsi dalam 3 hari. Brownies lebih tahan lama."
+            ]
+        },
+        {
+            "tag": "penyimpanan",
+            "patterns": [
+                "cara simpan",
+                "penyimpanan",
+                "taruh kulkas",
+                "suhu ruang",
+                "cara menyimpan"
+            ],
+            "responses": [
+                "Simpan kue dalam kulkas suhu 2-8 derajat. Keluarkan 30 menit sebelum disajikan. Hindari sinar matahari langsung.",
+                "Untuk penyimpanan optimal, taruh dalam wadah tertutup di kulkas. Kue dengan buttercream bisa di suhu ruang 4-6 jam."
+            ]
+        },
+        {
+            "tag": "porsi",
+            "patterns": [
+                "untuk berapa orang",
+                "porsi",
+                "cukup berapa orang",
+                "serving size",
+                "ukuran porsi",
+                "muat berapa orang",
+                "untuk berapa potong"
+            ],
+            "responses": [
+                "Perkiraan porsi: 16cm (8-10 orang), 20cm (15-18 orang), 24cm (25-30 orang), 28cm (35-40 orang).",
+                "Ukuran kue disesuaikan dengan jumlah tamu. Kami bisa bantu rekomendasikan ukuran yang tepat."
+            ]
+        },
+        {
+            "tag": "pilih_ukuran",
+            "patterns": [
+                "ukuran",
+                "size",
+                "diameter",
+                "cm",
+                "20cm",
+                "16cm",
+                "24cm",
+                "28cm",
+                "ukuran sedang",
+                "ukuran besar",
+                "ukuran kecil",
+                "mau ukuran",
+                "pesan ukuran",
+                "pilih ukuran"
+            ],
+            "responses": [
+                "Baik, untuk ukuran tersebut tersedia. Silakan lengkapi pesanan dengan form: [Nama, Alamat, No HP, Detail Pesanan].",
+                "Ukuran yang Anda pilih tersedia. Mau request tulisan atau dekorasi khusus?",
+                "Siap, ukuran tersebut bisa kami buatkan. Estimasi harga tergantung base cake yang dipilih."
+            ]
+        },
+        {
+            "tag": "rasa_tersedia",
+            "patterns": [
+                "rasa apa saja",
+                "pilihan rasa",
+                "varian rasa",
+                "flavor",
+                "rasa yang ada"
+            ],
+            "responses": [
+                "Rasa yang tersedia: Cokelat, Vanilla, Red Velvet, Cheese, Strawberry, Pandan, Moka, Tiramisu, Matcha, Taro, Blueberry, Lemon.",
+                "Kami punya banyak pilihan rasa. Untuk kue custom, bisa request rasa kombinasi juga."
+            ]
+        },
+        {
+            "tag": "bestseller",
+            "patterns": [
+                "best seller",
+                "paling laris",
+                "rekomendasi",
+                "yang paling enak",
+                "favorit",
+                "paling populer"
+            ],
+            "responses": [
+                "Best seller kami: Red Velvet, Black Forest, Cheesecake Original, dan Brownies Keju. Semuanya favorit pelanggan.",
+                "Rekomendasi kami: Red Velvet untuk yang suka unik, Black Forest untuk penggemar cokelat, Cheesecake untuk yang suka keju."
+            ]
+        },
+        {
+            "tag": "kue_anak",
+            "patterns": [
+                "kue untuk anak",
+                "kue anak-anak",
+                "tema anak",
+                "karakter kartun",
+                "kue lucu"
+            ],
+            "responses": [
+                "Kami punya tema kue anak: Princess, Superhero, Kartun, Unicorn, Dinosaurus, dan lainnya. Bisa custom karakter favorit.",
+                "Kue untuk anak-anak dengan berbagai tema seru. Warna colorful dan dekorasi menarik. Harga mulai Rp200.000."
+            ]
+        },
+        {
+            "tag": "corporate",
+            "patterns": [
+                "pesanan perusahaan",
+                "corporate order",
+                "hampers kantor",
+                "untuk kantor",
+                "pesanan banyak",
+                "grosir"
+            ],
+            "responses": [
+                "Untuk pesanan corporate, kami memberikan harga khusus untuk quantity besar. Hubungi kami untuk penawaran.",
+                "Pesanan corporate dan hampers tersedia. Diskon khusus untuk pembelian di atas 50 pcs. Bisa request packaging custom."
+            ]
+        },
+        {
+            "tag": "hampers",
+            "patterns": [
+                "hampers",
+                "parcel",
+                "gift box",
+                "hadiah",
+                "kado",
+                "bingkisan"
+            ],
+            "responses": [
+                "Hampers tersedia untuk berbagai occasion: Lebaran, Natal, Imlek, Anniversary. Harga mulai Rp150.000.",
+                "Paket hampers cantik dengan pilihan isi sesuai budget. Bisa request kartu ucapan personal."
+            ]
+        },
+        {
+            "tag": "kue_lebaran",
+            "patterns": [
+                "kue kering",
+                "kue lebaran",
+                "nastar",
+                "kastengel",
+                "putri salju",
+                "lidah kucing",
+                "putri lebaran",
+                "kue putri",
+                "paket lebaran",
+                "kue raya",
+                "pesan kue lebaran",
+                "mau nastar"
+            ],
+            "responses": [
+                "Kue kering Lebaran: Nastar Rp85.000, Kastengel Rp90.000, Putri Salju Rp75.000, Lidah Kucing Rp70.000 per toples.",
+                "Pesanan kue Lebaran sudah bisa dipesan dari sekarang. Diskon early bird 10% untuk pemesanan H-30."
+            ]
+        },
+        {
+            "tag": "snack_box",
+            "patterns": [
+                "snack box",
+                "kotak snack",
+                "untuk meeting",
+                "untuk rapat",
+                "snack kantor"
+            ],
+            "responses": [
+                "Snack box untuk meeting tersedia mulai Rp25.000/box. Isi: mini cake, pastry, dan buah. Minimal order 20 box.",
+                "Paket snack box untuk acara kantor dengan berbagai pilihan isi. Bisa customize sesuai kebutuhan."
+            ]
+        },
+        {
+            "tag": "toko_online",
+            "patterns": [
+                "beli online",
+                "shopee",
+                "tokopedia",
+                "marketplace",
+                "toko online"
+            ],
+            "responses": [
+                "Kami tersedia di Shopee dan Tokopedia dengan nama Toko Kue Manis Official. Produk terbatas dan promo eksklusif.",
+                "Untuk kemudahan, kami juga ada di marketplace. Tapi untuk kue custom, lebih baik order langsung."
+            ]
+        },
+        {
+            "tag": "testimoni",
+            "patterns": [
+                "testimoni",
+                "review",
+                "ulasan",
+                "rating",
+                "review pelanggan"
+            ],
+            "responses": [
+                "Terima kasih, kami sudah melayani lebih dari 10.000 pelanggan dengan rating 4.9/5. Cek Instagram kami untuk testimoni.",
+                "Review pelanggan bisa dilihat di Google Maps dan marketplace kami. Alhamdulillah rata-rata bintang 5."
+            ]
+        },
+        {
+            "tag": "komplain",
+            "patterns": [
+                "komplain",
+                "keluhan",
+                "kue rusak",
+                "tidak sesuai",
+                "kecewa",
+                "masalah"
+            ],
+            "responses": [
+                "Mohon maaf atas ketidaknyamanannya. Silakan jelaskan masalahnya dan kirim foto. Kami akan tangani segera.",
+                "Kami minta maaf jika ada yang kurang berkenan. Silakan hubungi customer service kami untuk penyelesaian."
+            ]
+        },
+        {
+            "tag": "refund",
+            "patterns": [
+                "refund",
+                "uang kembali",
+                "cancel",
+                "batal",
+                "pembatalan"
+            ],
+            "responses": [
+                "Pembatalan bisa dilakukan maksimal H-3 dengan pengembalian DP 50%. Pembatalan mendadak tidak bisa refund.",
+                "Untuk pembatalan, silakan hubungi kami segera. Kebijakan refund tergantung waktu pembatalan."
+            ]
+        },
+        {
+            "tag": "garansi",
+            "patterns": [
+                "garansi",
+                "jaminan",
+                "kalau rusak",
+                "klaim"
+            ],
+            "responses": [
+                "Kami menjamin kualitas produk saat diterima. Jika ada kerusakan saat pengiriman, kami akan ganti.",
+                "Garansi diberikan jika ada kerusakan bukan karena penyimpanan pelanggan. Klaim dengan foto bukti."
+            ]
+        },
+        {
+            "tag": "kontak",
+            "patterns": [
+                "nomor telepon",
+                "hubungi",
+                "kontak",
+                "wa",
+                "whatsapp",
+                "no hp"
+            ],
+            "responses": [
+                "Hubungi kami: WhatsApp 081234567890, Instagram @tokokueemanis, atau datang langsung ke toko.",
+                "Kontak kami: WA 081234567890 (fast response), Telepon (021) 1234567."
+            ]
+        },
+        {
+            "tag": "sosmed",
+            "patterns": [
+                "instagram",
+                "facebook",
+                "sosmed",
+                "social media",
+                "ig",
+                "fb"
+            ],
+            "responses": [
+                "Follow kami: Instagram @tokokueemanis, Facebook Toko Kue Manis, TikTok @tokokueemanis.",
+                "Media sosial kami aktif dengan update menu dan promo terbaru. Follow untuk tidak ketinggalan info."
+            ]
+        },
+        {
+            "tag": "franchise",
+            "patterns": [
+                "franchise",
+                "waralaba",
+                "kemitraan",
+                "buka cabang",
+                "investasi"
+            ],
+            "responses": [
+                "Untuk informasi franchise, silakan hubungi tim bisnis kami di franchise@tokokueemanis.com.",
+                "Kami membuka peluang kemitraan. Info lengkap hubungi WA khusus bisnis: 081234567899."
+            ]
+        },
+        {
+            "tag": "lowongan",
+            "patterns": [
+                "lowongan",
+                "karir",
+                "kerja",
+                "recruitment",
+                "dicari pegawai"
+            ],
+            "responses": [
+                "Info lowongan kerja bisa cek di Instagram kami atau kirim CV ke hr@tokokueemanis.com.",
+                "Saat ini kami membuka lowongan untuk pastry chef dan kasir. Kirimkan lamaran via email."
+            ]
+        },
+        {
+            "tag": "saran",
+            "patterns": [
+                "saran",
+                "masukan",
+                "feedback",
+                "kritik",
+                "ide"
+            ],
+            "responses": [
+                "Terima kasih atas masukan Anda. Kami selalu berusaha meningkatkan kualitas layanan.",
+                "Saran dan kritik sangat kami hargai. Silakan sampaikan, kami akan jadikan evaluasi."
+            ]
+        },
+        {
+            "tag": "tidak_paham",
+            "patterns": [
+                "ga ngerti",
+                "tidak paham",
+                "bingung",
+                "maksudnya apa",
+                "kurang jelas"
+            ],
+            "responses": [
+                "Maaf jika kurang jelas. Bisa jelaskan lebih detail apa yang ingin Anda tanyakan?",
+                "Mohon maaf atas kebingungannya. Silakan ulangi pertanyaan dengan lebih spesifik."
+            ]
+        },
+        {
+            "tag": "afirmasi",
+            "patterns": [
+                "oke",
+                "ok",
+                "baik",
+                "siap",
+                "iya",
+                "ya",
+                "boleh",
+                "mantap",
+                "sip",
+                "okey"
+            ],
+            "responses": [
+                "Baik, ada yang bisa saya bantu lagi?",
+                "Siap, silakan hubungi kami jika butuh bantuan lainnya.",
+                "Oke, jangan ragu bertanya lagi ya."
+            ]
+        },
+        {
+            "tag": "negatif",
+            "patterns": [
+                "tidak",
+                "ga",
+                "gak",
+                "nggak",
+                "enggak",
+                "nope",
+                "no"
+            ],
+            "responses": [
+                "Baik, ada hal lain yang bisa saya bantu?",
+                "Tidak apa-apa. Silakan tanyakan jika ada yang dibutuhkan."
+            ]
+        },
+        {
+            "tag": "pujian",
+            "patterns": [
+                "bagus",
+                "keren",
+                "mantap",
+                "enak",
+                "lezat",
+                "hebat",
+                "terbaik",
+                "top"
+            ],
+            "responses": [
+                "Terima kasih atas pujiannya. Kami senang Anda puas.",
+                "Wah terima kasih. Kepuasan pelanggan prioritas kami.",
+                "Senang mendengarnya. Ditunggu pesanan berikutnya ya."
+            ]
+        },
+        {
+            "tag": "candaan",
+            "patterns": [
+                "haha",
+                "wkwk",
+                "lucu",
+                "bercanda",
+                "joke",
+                "lawak",
+                "wkwkwk",
+                "kwkw"
+            ],
+            "responses": [
+                "Hehehe, ada yang bisa saya bantu serius?",
+                "Senang bisa menghibur. Ada pertanyaan tentang kue?",
+                "Wah seru ya. Yuk lanjut bahas kue."
+            ]
+        }
+    ]
+}

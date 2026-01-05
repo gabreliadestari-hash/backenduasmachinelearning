@@ -9,3 +9,4 @@ pydantic
 joblib
 httpx
 pytest
+a2wsgi

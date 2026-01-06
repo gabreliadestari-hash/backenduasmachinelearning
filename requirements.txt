@@ -10,3 +10,5 @@ joblib
 httpx
 pytest
 a2wsgi
+streamlit
+
